@@ -32,7 +32,7 @@ def getPrediction(pattern):
         "T": 16,
         "V": 17}
 
-    data = pd.read_csv("SELECT_DISTINCT____d_DrugKey_____dr_cd_s_therapy_notnull.csv").as_matrix()
+    data = pd.read_csv("SELECtnull.csv").as_matrix()
     clf = DecisionTreeClassifier()
 
     xtrainstr = np.array([])
